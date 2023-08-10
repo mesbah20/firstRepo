@@ -1,0 +1,523 @@
+**spring boot :
+
+*note from vaya :
+
+- java : programming language OOP
+  - spring , spring boot : framework based on Java 
+  - framework : 
+
+- .net(framework) - c#
+
+spring boot -> java -> oop -> concept
+
+===========
+how to make an application using spring boot
+
+
+
+(https://start.spring.io/) ==> this is the spring boot framework link !
+
+
+homework : must note
+
+what is framework
+what is maven
+what is spring boot
+
+
+
+====================================================================================================================================================
+Full Forms:
+
+POM: Project – Object - Model
+HTTP: Hypertext Transfer Protocol
+HTML: Hypertext Markup Language
+CSS: Cascading Style Sheets
+JVM: Java Virtual Machine 
+CRUD: CREATE, READ, UPDATE and DELETE
+API: Application Programming Interface
+
+
+
+
+
+===================================================================================================================================================
+*Spring boot related topics:
+____________________________
+
+#class specifier :
+Private: 
+When we use a private access specifier, 
+the method is accessible only in the classes in which it is defined. we use it in encapsulated class
+
+
+Protected: 
+When we use protected access specifier, 
+the method is accessible within the same package or subclasses in a different package.
+
+
+
+#Browser:
+A browser is an application program that provides a way to look at and interact with all the 
+information on the World Wide Web. This includes Web pages, videos and images.
+
+
+
+#Thymeleaf: https://www.geeksforgeeks.org/spring-boot-how-thymeleaf-works/?ref=rp
+Thymeleaf is a Java-based template engine used for server-side rendering of dynamic HTML, XML, or 
+other markup documents in web applications. It allows for embedding dynamic data from backend Java 
+objects into HTML templates, and provides features such as conditional statements, iteration, 
+internationalization, and more. Thymeleaf is typically used in conjunction with Java web frameworks 
+such as Spring MVC or Spring Boot for generating dynamic views on the server that are sent to the 
+client's web browser for rendering.
+
+
+
+#Template:
+Templates are text files that combine HTML (or other markup) with template expressions. 
+These expressions can include variables, conditions, loops, and other control structures to manipulate the data 
+before rendering it in the final HTML output.
+
+
+
+#framework : https://www.geeksforgeeks.org/spring-boot-how-thymeleaf-works/?ref=rp
+A framework is a structure that you can build software on. 
+It serves as a foundation, so you’re not starting entirely from scratch. 
+Frameworks are typically associated with a specific programming language and 
+are suited to different types of tasks.
+(Django is an open-source web development framework supported by the Django Software Foundation. 
+It’s written in Python, a popular programming language, .net(framework) - bulit in c# language)
+
+
+
+#Maven : 
+Maven is a project management and comprehension tool that provides developers a 
+complete build lifecycle framework. Development team can automate the project's 
+build infrastructure in almost no time as Maven uses a standard directory layout 
+and a default build lifecycle.
+
+
+
+#spring boot :
+Java Spring Boot (Spring Boot) is a tool that makes developing web application and 
+microservices with Spring Framework faster and easier through three core capabilities: 
+1)Autoconfiguration. 
+2)An opinionated approach to configuration. 
+3)The ability to create standalone applications.
+
+These features work together to provide you with a 
+tool that allows you to set up a Spring-based application with minimal configuration and setup.
+
+Spring Boot is an open-source micro framework maintained by a company called Pivotal. 
+It provides Java developers with a platform to get started with an 
+auto configurable production-grade Spring application.
+
+
+
+(loosely coupled, cross-platform Java EE applications) ? 
+
+#loosely coupled:Loose coupling refers to the connection between components of a system or network, 
+such as software applications or hardware. It's an approach in which components (or elements), 
+although connected, aren't dependent on one another.
+
+Imagine you have created two classes, A and B, in your program. 
+Class A is called volume, and class B evaluates the volume of a cylinder. 
+If you change class A volume, then you are not forced to change class B. 
+This is called loose coupling in Java.
+
+
+
+#cross-platform :
+able to be used with different types of computer systems:
+The software is truly cross-platform and is available for computers running the Windows, 
+Mac OS X, Linux, and Solaris operating systems.
+
+
+
+#Dependency injection : 
+In software engineering, dependency injection is a design pattern in which an object or 
+function receives other objects or functions that it depends on.
+Dependency Injection can exist between two objects, for instance, a flashlight and a battery. 
+The flashlight needs the battery to function. However, any changes made to the battery, 
+such as switching it with another brand/set of batteries, does not mean the dependent object (flashlight) 
+also needs to be changed.
+
+
+
+#embadded Tomcat / jetty....:
+(jetty) : Eclipse Jetty is a Java web server and Java Servlet container. 
+While web servers are usually associated with serving documents to people, 
+Jetty is now often used for machine to machine communications, 
+usually within larger software frameworks.
+(embedded Tomcat) : An embedded Tomcat server consists of a single Java web application along 
+with a full Tomcat server distribution, packaged together and compressed into a single JAR, 
+WAR or ZIP file.
+
+
+
+#Spring MVC application :-
+Spring MVC is a Java framework that is used to develop web applications. 
+It is built on a Model-View-Controller (MVC) pattern and possesses all the basic 
+features of a spring framework, such as Dependency Injection, Inversion of Control.
+
+
+
+#inversion of control(loC) :
+Inversion of Control is a principle in software engineering which transfers the control of 
+objects or portions of a program to a container or framework. We most often use it in the 
+context of object-oriented programming.
+
+Inversion of Control (IoC) is a design principle that allows classes to be loosely coupled and, 
+therefore, easier to test and maintain. IoC refers to transferring the control of objects and their 
+dependencies from the main program to a container or framework.
+
+
+
+#Spring container :
+The Spring container is the core of Spring Framework. The container, use for creating the objects 
+and configuring them. Also, Spring IoC Containers use for managing the complete lifecycle from 
+creation to its destruction(object). It uses Dependency Injection (DI) to manage components and these 
+objects are called Spring Beans.
+
+
+
+
+
+==================================================================================================================================================
+
+H.W :  (http://localhost:8080/booklist) = address !
+
+Date: 15 - 2 - 23
+
+1) what is annotation in spring boot ? (https://www.upgrad.com/blog/spring-boot-annotations/#)
+2) what are annotations in spring boot ?
+3) what is controller annotation, how it works ?
+4) what is getmapping,putmapping,postmapping.....?
+5) Spring MVC application ?
+6) basic html learn from (w3 school)
+
+
+
+
+
+1) what is annotation in spring boot ?
+
+#meta data :
+Data that provide information about other data. 
+Metadata summarizes basic information about data, making finding & working with particular 
+instances of data easier. Metadata can be created manually to be more accurate, 
+or automatically and contain more basic information.
+
+
+#annotation in sporing boot :
+Spring Boot Annotations are a form of metadata that provides data about a program that is not a 
+part of the program itself. They do not have any direct effect on the operation of the code they annotate. 
+Spring Boot Annotations do not use XML and instead use the convention over configuration principle
+
+
+#server :
+In computing, a server is a piece of computer hardware or software that provides functionality 
+for other programs or devices, called "clients". This architecture is called the client–server model.
+
+
+#servlets :
+Java™ servlets and Java server pages (JSPs) are Java programs that run on a Java application server 
+and extend the capabilities of the Web server. Java servlets are Java classes that are designed to 
+respond to HTTP requests in the context of a Web application.
+
+
+#Servlet API:
+A Jakarta Servlet is a Java software component that extends the capabilities of a server. 
+Although servlets can respond to many types of requests, they most commonly implement web 
+containers for hosting web applications on web servers and thus qualify as a server-side servlet web API.
+
+
+
+#web container:
+A web container is the component of a web server that interacts with Jakarta Servlets. 
+A web container is responsible for managing the lifecycle of servlets, mapping a URL to a 
+particular servlet and ensuring that the URL requester has the correct access-rights
+
+
+
+#Application server :
+An application server is a server that hosts applications or software that delivers a business 
+application through a communication protocol. An application server framework is a service layer model. 
+It includes software components available to a software developer through an application programming 
+interface.
+
+
+
+#servlet container / web container:
+A servlet container is an application server that implements some version of the Java Servlet Specification. 
+In a nutshell, the servlet spec defines a programming model that allows a developer to write components, 
+for example servlets, that process requests (almost always HTTP requests).
+
+
+
+#bootstrapping :
+In general, bootstrapping usually refers to a self-starting process that is supposed to continue or grow 
+without external input.
+
+
+
+
+#JetBrains plugin:
+Plugins extend the core functionality of IntelliJ IDEA. 
+For example, install plugins to get the following features: Integration with version control systems, 
+issue trackers, build management servers, and other tools. Coding assistance support for various 
+languages and frameworks. example: Scala.
+
+
+
+
+2) what are annotations in spring boot ?
+
+@Bean
+@Service
+@Repository
+@Configuration
+@Controller
+@RequestMapping
+@Autowired
+@Component
+@SpringBootApplication
+@EnableAutoConfiguration
+
+
+*)API = Application programming interface.
+From frontend part a request call in backend for data. then it will show in frontend interface. 
+That's is called API call.
+REST API = from backend a request call in database(MYSQL). 
+
+3) what is controller annotation, how it works ?
+
+@controller :
+The annotation is used to indicate that the class is a web request handler. 
+It is often used to present web pages.The controller annotation indicates 
+the class serves the role of a controller.
+
+
+
+@RestController:
+The @RestController annotation is used in Spring MVC to define a controller class that handles HTTP requests
+ and automatically serializes the response into the HTTP response body. It is a specialized version of the 
+@Controller annotation, which is used for traditional web MVC controllers. When you annotate a class with
+ @RestController, you are essentially combining the @Controller and @ResponseBody annotations into a 
+single declaration. This means that all the methods in the class are treated as controller methods, 
+and the return values of these methods are automatically serialized to the HTTP response body.
+
+
+
+
+@RequestMapping :
+@RequestMapping is used to map the HTTP request. It is used with the class as well as the method.
+
+
+
+`*` = wildcard 
+@CrossOrigin(`*`):
+ annotation is used in Spring applications to enable Cross-Origin Resource Sharing (CORS) 
+for specific controller methods. CORS is a security feature implemented by web browsers to restrict 
+webpages from making requests to a different domain than the one that served the original webpage. 
+By default, web browsers enforce the same-origin policy for security reasons.
+
+("*"): This is the parameter for the @CrossOrigin annotation, specifying which domains are allowed to
+ make cross-origin requests. In this case, * means "any domain," allowing requests from any origin.
+
+
+
+
+@RequiredArgsConstructor:
+The @RequiredArgsConstructor annotation is provided by Lombok, a library that helps reduce boilerplate code 
+in Java classes. When you use @RequiredArgsConstructor on a class, Lombok automatically generates a constructor 
+for that class, which includes all the final fields of the class as arguments. The generated constructor allows 
+you to initialize the final fields at the time of object creation.
+
+
+
+@RequestMapping VS @GetMapping :
+@RequestMapping is used at the class level while @GetMapping is used to connect the methods. 
+This is also an important Spring MVC interview question to knowing how and when to use both 
+RequestMapping and GetMapping is crucial for Java developers.
+
+
+
+
+4) what is getmapping,putmapping,postmapping.....? (https://www.javaguides.net/2018/11/spring-getmapping-postmapping-putmapping-deletemapping-patchmapping.html#:~:text=The%20GET%20HTTP%20request%20is,GET).
+
+
+@GetMapping:
+The GET HTTP request is used to get a single or multiple resources and @GetMapping annotation for 
+mapping HTTP GET requests onto specific handler methods. Specifically, @GetMapping is a composed 
+annotation that acts as a shortcut for @RequestMapping(method = RequestMethod. GET).
+
+
+
+@Pathvariable: 
+("/student/{id}") here (id) is a student path variable. we use @Pathvariable annotation to map OR store the 
+path variable(id) value what we get from repository to (java variable ):Long id
+public ResponseEntity<Student> getStudentById(@PathVariable Long id) 
+
+
+
+
+@ModelAttribute: (@ModelAttribute("student") Student student)
+The @ModelAttribute annotation is used in Spring MVC to bind form data from the HTML form fields 
+to a Java object (in this case, the Student object) before invoking a controller method. 
+It helps in the data binding process between the HTML form and the Java object.
+
+
+
+@PostMapping:
+The POST HTTP method is used to create a resource and @PostMapping annotation for mapping HTTP POST 
+requests onto specific handler methods. Specifically, @PostMapping is a composed  annotation that acts 
+as a shortcut for @RequestMapping(method = RequestMethod.POST).
+
+
+@PutMapping:
+The PUT HTTP method is used to update the resource and @PutMapping annotation for mapping HTTP PUT 
+requests onto specific handler methods.Specifically, @PutMapping is a composed annotation that 
+acts as a shortcut for @RequestMapping(method = RequestMethod.PUT).
+
+
+@DeleteMapping:
+The DELETE HTTP method is used to delete the resource and @DeleteMapping annotation for mapping
+ HTTP DELETE requests onto specific handler methods.Specifically, @DeleteMapping is a composed 
+annotation that acts as a shortcut for @RequestMapping(method = RequestMethod.DELETE).
+
+
+@PatchMapping:
+The PATCH HTTP method is used when you want to apply a partial update to the resource
+and @PatchMapping annotation for mapping HTTP PATCH requests onto specific handler methods.
+Specifically, @PatchMapping is a composed annotation that acts as a shortcut for
+@RequestMapping(method = RequestMethod.PATCH).
+
+
+
+@Repository:
+When you annotate a class with @Repository, you are telling Spring that this class serves as a data repository, 
+responsible for encapsulating the data access logic. Typically, repositories are used to interact with databases 
+or other data storage mechanisms to perform CRUD (Create, Read, Update, Delete) operations on the data.
+the @Repository annotation is used to identify a class as a repository in a Spring-based application, 
+providing benefits such as automatic exception handling and easier unit testing.
+
+the @Repository annotation is used in Spring to designate a class as a repository component responsible for data 
+access. It helps with automatic component scanning, exception translation, and separation of concerns, 
+making it a valuable part of building data-centric applications in Spring.
+
+
+
+@Autowired:
+Spring @Autowired annotation is used for automatic dependency injection. Spring framework is built 
+on dependency injection and we inject the class dependencies through spring bean configuration file.
+
+
+
+
+@Requestbody:(@RequestBody Student student)
+this annotation get new updated student data of a (particular array position / from one ID, in every submit) 
+ from angular frontend to this (java: Student student) part ==> means to this (java: student object)
+
+
+
+@Override:
+The @Override annotation is used in Java to indicate that a method in a subclass is intended to override a method
+ with the same signature in its superclass. It is a helpful tool to ensure that you are correctly overriding 
+methods from parent classes or implementing methods from interfaces.
+
+class Animal {
+    void makeSound() {
+        System.out.println("Animal makes a sound");
+    }
+}
+class Dog extends Animal {
+    @Override
+    void makeSound() {
+        System.out.println("Dog barks");
+    }
+}
+In the example above, the Dog class is a subclass of Animal, and it overrides the makeSound() method of its 
+superclass using the @Override annotation. This annotation helps ensure that the method in the Dog class has
+ the correct method signature and is indeed overriding the method in the Animal class.
+
+
+
+
+
+@PathVariable:(@PathVariable Long id)
+("/update/{id}") here (id) is a student path variable. we use @Pathvariable annotation to map OR store 
+the path variable(id) value what we get from frontend (student array) index to (java variable ): Long id
+
+
+
+
+@Service:
+The @Service annotation is used in the Spring Framework to mark a class as a service component 
+When you annotate a class with @Service, you are indicating to Spring that the class is a service layer component.
+The service layer in an application is responsible for containing the business logic and acts as an intermediary 
+between the presentation layer (controllers or user interfaces) and the data access layer 
+(repositories or data access objects). It helps with component scanning, dependency injection, and provides 
+semantic clarity for developers to identify the class as a service layer component containing business logic.
+
+
+
+
+@Entity:Indicates that a class is an entity, representing a table in the database
+
+
+
+@Data:
+when applied to a class, automatically generates the following common methods for the class:
+Getters and Setters for all non-static fields.
+equals(), hashCode(), and toString() methods.
+Constructors that initialize all final and non-static fields.
+
+
+@Table:Specifies the name of the database table associated with an entity.
+
+
+@Id:Marks a field as the primary key of the entity.
+
+
+@GeneratedValue: Specifies how the primary key value is generated, e.g., AUTO, IDENTITY, SEQUENCE, etc.
+
+
+@Column: Defines the mapping between an entity attribute and a database column.
+
+
+
+QUS: what is generic type ?
+
+ans:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

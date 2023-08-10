@@ -1,0 +1,60 @@
+Database related topics:
+=========================
+
+
+*)ddl value:
+The property spring.jpa.hibernate.ddl-auto is for database initialization. 
+It is good security practice that after your database is in production state. 
+Here are some commonly used ddl values:
+
+none: The default for MySQL. We make no change to the database structure.
+update: Hibernate changes the database according to the entity structures.
+create: Creates the database every time but does not drop it on close.
+create-drop: Creates the database and drops it when SessionFactory.
+
+
+
+
+*)Repository:
+In the context of software development, a repository is a component or module that acts as an 
+intermediary between the application and the data source, typically a database or a file system. 
+The repository is responsible for abstracting the data access layer and provides an interface for 
+the application to interact with the data source.
+By using a repository, the application can easily switch 
+between different data sources without changing the business logic.
+A repository typically provides a set of methods that represent the different operations that can be 
+performed on the data source, such as creating, reading, updating, and deleting data. 
+These methods are often called CRUD methods, which stands for Create, Read, Update, and Delete.
+In modern application development, repositories are commonly used in conjunction with 
+object-relational mapping (ORM) frameworks, such as Hibernate, JPA, or Entity Framework, 
+which provide a high-level abstraction of the data source and make it easier to work with 
+database tables as if they were regular objects in the programming language.
+
+Overall, a repository is an important architectural pattern that provides a layer of abstraction 
+between the application and the data source, allowing the application to be more modular and easier 
+to maintain.
+
+
+
+*)refactor:
+By refactoring, we can change the file name in everywhere
+
+
+
+
+*)API = Application programming interface.
+From frontend part a request call in backend for data. then it will show in frontend interface. 
+That's is called API call.
+REST API = from backend a request call in database(MYSQL). 
+
+
+
+
+
+
+
+
+
+
+
+

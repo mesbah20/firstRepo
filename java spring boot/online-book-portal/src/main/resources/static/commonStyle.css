@@ -1,0 +1,42 @@
+* {
+margin : 0;
+padding : 0;
+}
+.main {
+width : 100%;
+background : linear-gradient(to top, rgb(0, 0, 0, 0.5) 10%, rgb(0, 0, 0, 0.5) 10%), url(ANIK.jpg);
+background-position : center;
+background-size : cover;
+height : 100vh;
+color : white;
+}
+.design {
+text-align : center;
+padding-left : 30px;
+color : white;
+font-size : 300%;
+}
+.link {
+padding-left : 30px;
+color : white;
+font-size : 150%;
+}
+.line {
+text-align : center;
+color : white;
+font-size : 200%;
+}
+.line2 {
+padding-left : 30px;
+color : white;
+font-size : 150%;
+}
+.list {
+padding-left : 40px;
+color : white;
+font-size : 100%;
+}
+.paragraph {
+color : pink;
+font-size : 100%;
+}

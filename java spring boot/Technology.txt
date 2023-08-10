@@ -1,0 +1,18 @@
+*)Technology:
+_____________
+#Microservices:
+In software engineering, a microservice architecture is a variant of the service-oriented architecture 
+structural style. It is an architectural pattern that arranges an application as a collection of 
+loosely coupled, fine-grained services, communicating through lightweight protocols.
+
+
+
+***)how data navigate from database to backend:
+from controller ->  service -> repository 
+
+
+
+*)what is MERN Stack DEevelopment ?
+ans:MERN stands for MongoDB, Express, React, Node, after the four key technologies that make up the stack.
+ MongoDB — document database. Express(.js) — Node.js web framework. React(.js) — a client-side 
+JavaScript framework.
