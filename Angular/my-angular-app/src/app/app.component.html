@@ -1,0 +1,43 @@
+<nav class = "navbar navbar-expand-sm bg-primary navbar-dark">
+  <ul class = "navbar-nav">
+    <li class = "nav-item">
+    <a routerLink="student" routerLinkActive = "active" class = "nav-link">Student List</a>
+    </li>
+    <li class = "nav-item">
+      <!--from student list page by clicking Add student it goes to CreatStudentComponent class
+       in creat-student.component.ts page through routeLink function,by importing creat-student path
+       in app-routing.module.ts folder  --->
+    <a routerLink="creat-student" routerLinkActive = "active" class = "nav-link">Add Student</a>
+    </li>
+  </ul>
+
+</nav>
+<h1 class = "text-center"> {{ title }} </h1>
+<div class="container" style="min-height: 500px">
+  <router-outlet></router-outlet>
+</div>
+<footer class = "footer">
+
+    <span>All Right Reserved 2023 @JavaGuides</span>
+
+</footer>
+
+
+
+<!--<form #basicForm = "ngForm" (submit) = "getDate(basicForm.value)" >
+
+  <input type = "text" ngModel name = "user" placeholder = "Enter User Name" />
+  <br/> <br/>
+  <input type = "text" ngModel name = "email" placeholder = "Enter User email" />
+  <br/> <br/>
+  <input type = "text" ngModel name = "password" placeholder = "Enter User password" />
+  <br/> <br/>
+  <button>Register</button>
+</form>
+
+
+<ul>
+  <li>{{userData.user}}</li>
+  <li>{{userData.email}}</li>
+  <li>{{userData.password}}</li>
+</ul>-->

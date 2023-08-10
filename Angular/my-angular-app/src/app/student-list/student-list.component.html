@@ -1,0 +1,30 @@
+<h3 class="text-center"> Student List </h3>
+<table class = "table table-striped">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>ROLL</th>
+      <th>NAME</th>
+      <th>GENDER</th>
+      <th>AGE</th>
+      <th>ACTION</th>
+    </tr>
+  </thead>
+  <tbody>
+     <tr *ngFor = "let stu of student; let index = index">
+       <td> {{ index+1 }} </td>
+       <td> {{ stu.roll }} </td>
+       <td> {{ stu.name }} </td>
+       <td> {{ stu.gender }} </td>
+       <td> {{ stu.age }} </td>
+       <td>
+         <!--updateStudent is a event handler -->
+         <button (click)="updateStudent(stu.id)" class="btn btn-info">Update</button>
+         <button (click)="deleteStudent(stu.id)" class="btn btn-danger" style = "margin-left: 10px">Delete</button>
+         <button (click)="StudentDetails(stu.id)" class="btn btn-info" style = "margin-left: 10px">Details</button>
+       </td>
+
+     </tr>
+  </tbody>
+
+</table>
